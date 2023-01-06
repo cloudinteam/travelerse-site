@@ -1,0 +1,72 @@
+.work-icon {
+  font-size: 85px;
+  /* color: var(--text-green); */
+}
+
+.work-animation-1 {
+  position: relative;
+  animation: example;
+  animation-duration: 2s;
+  animation-iteration-count: inherit;
+}
+
+.work-animation-2 {
+  position: relative;
+  animation: example2;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+}
+
+.work-title {
+  font-size: large !important;
+  color: #14C2A3 !important;
+}
+
+.work-h3 {
+  font-size: xx-large !important;
+}
+
+.work-ul li {
+  font-size: medium;
+}
+
+@keyframes example {
+
+  /* 0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  } */
+  from {
+    left: -20%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes example2 {
+  from {
+    right: -20%;
+  }
+
+  to {
+    right: 0%;
+  }
+}
+
+/* telegram section */
+
+.telegram-section {
+  background-color: var(--background-color);
+  color: var(--text-white);
+}
+
+@media screen and (max-width: 576px) {
+  .telegram-h1 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.cu {
+  color: #14C2A3;
+  font-weight: 600;
+}
+
+.table-head {
+  font-size: x-large !important;
+}
+
+.table-h5 {
+  font-size: large !important;
+}
+
+.table-section {
+  user-select: none !important;
+}
