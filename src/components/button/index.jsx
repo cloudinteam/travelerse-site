@@ -13,7 +13,7 @@ Button.propTypes = {
 function Button(props) {
     const {title , path , onClick} = props;
     return (
-        <Link className="tf-button d-sm-inline-block btn-effect" to={path} onClick={onClick}>   
+        <Link className="tf-button btn-effect" to={path} onClick={onClick}>   
             <span className="boder-fade"></span>                                     
             <span className="effect">{title}</span>
         </Link>

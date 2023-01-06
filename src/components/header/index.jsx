@@ -3,8 +3,9 @@ import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/logo.png'
-import Button from '../button';
+// import logo from '../../assets/images/logo/logo.png'
+import travel_logo from '../../assets/images/logo/logo_footer.png'
+// import Button from '../button';
 import './home.css'
 
 
@@ -37,7 +38,7 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/"><img src={logo} alt="Crybox" /></NavLink>
+                        <NavLink to="/"><img src={travel_logo} alt="Crybox" width={150}/></NavLink>
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
@@ -64,9 +65,10 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                    {/* <div  className='home-btn' > */}
-                    <Button title='join telegram' path='/contact' id='home-btn' />
-                    {/* </div> */}
+
+                    {/* <Button title='join telegram' path='/contact' id='home-btn' /> */}
+
+                    <button className='tf-button btn-effect home-btn d-sm-inline-block d-none'>Join telegram</button>
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>

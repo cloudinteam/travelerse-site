@@ -1,5 +1,17 @@
-@media screen and (max-width: 400px) {
-  #home-btn {
-    display: none !important;
-  }
+.home-btn {
+  border: 2px solid #14C2A3;
+  padding: 9px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: large;
+}
+
+.home-btn:hover {
+  border: 2px solid   white;
+  padding: 9px 20px;
+  color: #14C2A3;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: large;
 }

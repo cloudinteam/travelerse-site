@@ -115,11 +115,6 @@ const menus = [
     //         },
     //     ],
     // },
-    // {
-    //     id: 6,
-    //     name: 'Contact',
-    //     links: '/contact'
-    // },
 
     {
         id: 7,
@@ -132,6 +127,11 @@ const menus = [
         id: 8,
         name: 'Private Sale',
         links: '/'
+    },
+    {
+        id: 6,
+        name: 'Contact',
+        links: '/contact'
     },
 
 
