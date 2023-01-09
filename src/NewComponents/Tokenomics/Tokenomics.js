@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tokenomics.css'
+import './Tokenomics.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { FaMoneyCheckAlt, FaMoneyCheck } from 'react-icons/fa';
 import { GiPayMoney } from 'react-icons/gi';
@@ -130,7 +130,7 @@ function TokeNomics ()
           </div>
 
           <div className="d-flex justify-content-center mt-5">
-            <a href="void:" className="btn-item">
+            <a href="https://t.me/Travelerse" target='_blank' rel='noreferrer' className=" earn-btn-item pt-2">
               <span className="me-2">
                 <BsFillArrowRightCircleFill />
               </span>

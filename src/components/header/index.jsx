@@ -42,14 +42,19 @@ const Header = () => {
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
-
-                            {
-                                menus.map((data,idx) => (
-                                    <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
-                                    
+                         
+                                    <li 
+                                    className='d-flex flex-lg-row flex-column ms-mg-5 ms-0'
                                     >
-                                        <Link to={data.links}>{data.name}</Link>
-                                        {
+                                        <Link to='/' className='py-lg-0 py-2'>Home</Link>
+                                        <a  className='py-lg-0 py-2' target='_blank' rel='noreferrer' href='https://travelerse.gitbook.io/travelerse/'>
+                                        whitepaper
+                                        </a>
+                                       
+                                        <a  className='py-lg-0 py-2' target='_blank' rel='noreferrer' href='https://app.travelerse.club/claim'>Private sale</a>
+                                        <Link   className='py-lg-0 py-2' to='/Contact'>Contact</Link>
+
+                                        {/* {
                                             data.namesub &&
                                             <ul className="sub-menu">
                                                 {
@@ -59,16 +64,15 @@ const Header = () => {
                                                 }
                                             </ul>
                                         }
-                                        
+                                         */}
                                     </li>
-                                ))
-                            }
+                         
                         </ul>
                     </nav>
 
                     {/* <Button title='join telegram' path='/contact' id='home-btn' /> */}
 
-                    <button className='tf-button btn-effect home-btn d-sm-inline-block d-none'>Join telegram</button>
+                    <a href='https://t.me/Travelerse' target='_blank' rel='noreferrer' className='tf-button btn-effect home-btn d-sm-inline-block d-none text-nowrap'>Join telegram</a>
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>

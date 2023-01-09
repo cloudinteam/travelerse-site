@@ -119,7 +119,8 @@ const menus = [
     {
         id: 7,
         name: 'Whitepaper',
-        links: '/'
+        links: '/',
+        href: 'https://travelerse.gitbook.io/travelerse/'
     },
 
 

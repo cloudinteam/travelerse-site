@@ -24,6 +24,7 @@ import TokeNomics from '../NewComponents/Tokenomics/Tokenomics';
 import NewWork from '../NewComponents/Work/Work';
 import Planet from '../NewComponents/Planet/Planet';
 import Table from '../NewComponents/Table/Table';
+import Safe from '../NewComponents/Safe/Safe';
 
 
 function HomeOne(props) {
@@ -43,7 +44,9 @@ function HomeOne(props) {
             <Planet/>
             <NewWork/>
 
-        <Work data={dataWork} />
+            <Work data={dataWork} />
+            
+            <Safe/>
 
         {/* <Team data={dataTeam} /> */}
 

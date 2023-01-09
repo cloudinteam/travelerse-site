@@ -42,7 +42,11 @@ function SliderItem(props) {
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
-                                    <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link>
+                                    {/* <Link to="https://app.travelerse.club/claim#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
+
+                                    <a href='https://app.travelerse.club/claim#' className="tf-button-st2 btn-effect">
+                                        <span className="effect">connect wallet</span>
+                                    </a>
                                     {/* <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
                                     
                                         <span className="boder-fade"></span>                                     

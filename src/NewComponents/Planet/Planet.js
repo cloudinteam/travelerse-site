@@ -46,12 +46,14 @@ function Planet ()
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mt-5">
-            <a href="void:" className="earn-btn-item">
-              <span>
-                <BsFillArrowRightCircleFill className="me-2" />
+          <div className="mt-5 d-flex justify-content-center align-items-center ">
+            <a href="https://t.me/Travelerse" target='_blank' rel='noreferrer' className="earn-btn-item pt-2">
+              <span className="">
+                <BsFillArrowRightCircleFill className="my-auto me-2" />
               </span>
-              Click to Buy Travelerse
+              <span>
+                Click to Buy Travelerse
+              </span>
             </a>
           </div>
         </div>
