@@ -26,7 +26,7 @@ function NewWork ()
                     <FaUserLock className="work-icon" />
                   </div>
                   <h3 className="work-h3 h3 text-center fw-bold mb-3">
-                    Whales Can't crash the coins, resulting in a safe investment
+                    Whales Can't crash the coins, resulting in a <sp className='cu'>safe investment</sp>
                   </h3>
                   <ul className="px-md-3 px-1 work-ul">
                     <li className="h5 mb-3">
