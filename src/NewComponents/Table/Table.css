@@ -14,3 +14,7 @@
 .table-section {
   user-select: none !important;
 }
+
+td {
+  vertical-align: middle !important;
+}
