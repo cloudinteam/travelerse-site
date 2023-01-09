@@ -44,15 +44,23 @@ const Header = () => {
                         <ul id="menu-primary-menu" className="menu">
                          
                                     <li 
-                                    className='d-flex flex-lg-row flex-column ms-mg-5 ms-0'
-                                    >
-                                        <Link to='/' className='py-lg-0 py-2'>Home</Link>
-                                        <a  className='py-lg-0 py-2' target='_blank' rel='noreferrer' href='https://travelerse.gitbook.io/travelerse/'>
+                                    className='d-flex flex-lg-row flex-column justify-content-center ms-mg-5 ms-0'
+                            >
+                                
+                                <Link to='/' className='py-lg-0 py-2 mx-auto'>Home</Link>
+                                
+                                <div className='header-line d-lg-none d-block '></div>
+                                        <a  className='py-lg-0 py-2  mx-auto' target='_blank' rel='noreferrer' href='https://travelerse.gitbook.io/travelerse/'>
                                         whitepaper
                                         </a>
+                                <div className='header-line d-lg-none d-block '></div>
                                        
-                                        <a  className='py-lg-0 py-2' target='_blank' rel='noreferrer' href='https://app.travelerse.club/claim'>Private sale</a>
-                                        <Link   className='py-lg-0 py-2' to='/Contact'>Contact</Link>
+                                <a className='py-lg-0 py-2  mx-auto' target='_blank' rel='noreferrer' href='https://app.travelerse.club/claim'>Private sale</a>
+                                
+                                <div className='header-line d-lg-none d-block '></div>
+
+                                        <Link className='py-lg-0 py-2  mx-auto' to='/Contact'>Contact</Link>
+                                <div className='header-line d-lg-none d-block '></div>
 
                                         {/* {
                                             data.namesub &&
