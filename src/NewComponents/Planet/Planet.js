@@ -2,8 +2,7 @@ import React from "react";
 import "./Planet.css";
 import { FaHandPointRight } from "react-icons/fa";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-function Planet ()
-{
+function Planet() {
   return (
     <>
       <section className="container-fluid planet-container py-5">
@@ -39,21 +38,24 @@ function Planet ()
             <div className="col-5">
               <h2 className="h2 text-center earn-h2">
                 you can earn up to
-                <span className="earn-span cu">US$213,139.27</span> of $TRAVELERSE
-                at
+                <span className="earn-span cu">US$213,139.27</span> of
+                $TRAVELERSE at
                 <span className="earn-span cu">213,139.27%</span> APY*.
               </h2>
             </div>
           </div>
 
           <div className="mt-5 d-flex justify-content-center align-items-center ">
-            <a href="https://t.me/Travelerse" target='_blank' rel='noreferrer' className="earn-btn-item pt-2">
+            <a
+              href="https://t.me/Travelerse"
+              target="_blank"
+              rel="noreferrer"
+              className="earn-btn-item pt-2"
+            >
               <span className="">
                 <BsFillArrowRightCircleFill className="my-auto me-2" />
               </span>
-              <span>
-                Click to Buy Travelerse
-              </span>
+              <span>Click to Buy Travelerse</span>
             </a>
           </div>
         </div>

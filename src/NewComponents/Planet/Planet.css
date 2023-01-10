@@ -12,9 +12,8 @@
   margin: 0px auto;
 }
 
-
 .cu {
-  color: #14C2A3 !important;
+  color: #14c2a3 !important;
   font-weight: 600 !important;
 }
 
@@ -45,17 +44,17 @@
 
 .earn-icon {
   font-size: 60px;
-  border: 2px solid #14C2A3;
+  border: 2px solid #14c2a3;
   border-radius: 50%;
   padding: 5px;
-  color: #14C2A3;
+  color: #14c2a3;
 }
 
 .earn-btn-item {
   font-size: medium;
   text-decoration: none;
   color: white;
-  background-color: #14C2A3;
+  background-color: #14c2a3;
   padding: 5px 20px 9px 20px;
   border-radius: 5px;
   white-space: nowrap;
@@ -66,12 +65,12 @@
 .earn-btn-item:hover {
   transition: 0.3s;
   border: 2px solid white;
-  color: #14C2A3;
+  color: #14c2a3;
   background-color: white;
   white-space: nowrap;
 }
 
-.earn-h2{
+.earn-h2 {
   font-size: 35px !important;
 }
 
