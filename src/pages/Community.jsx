@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import dataAbout from '../assets/fake-data/data-about';
 import dataProject from '../assets/fake-data/dataProject';
@@ -7,7 +7,7 @@ import About from '../features/about';
 import Project from '../features/project/home-v3';
 
 import ModalVideo from 'react-modal-video';
-import 'react-modal-video/scss/modal-video.scss' ;
+import 'react-modal-video/scss/modal-video.scss';
 
 function Community(props) {
 
@@ -33,7 +33,7 @@ function Community(props) {
                                 <div className="wrap-video">
                                     <Link to="#" className="popup-youtube" onClick={()=> setOpen(true)}>
                                         <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M27 17.0001L0 0.500061V35.0001L27 17.0001Z" fill="#14C2A3"/>
+                                            <path d="M27 17.0001L0 0.500061V35.0001L27 17.0001Z" fill="#73BA3F"/>
                                         </svg>
                                     </Link>
                                 </div>  
