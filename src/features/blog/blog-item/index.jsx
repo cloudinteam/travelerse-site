@@ -7,7 +7,7 @@ BlogItem.propTypes = {
     item: PropTypes.object,
 };
 
-function BlogItem(props) {
+function    BlogItem(props) {
     const {item} = props;
 
     return (

@@ -1,13 +1,26 @@
 import React from "react";
 import "./Safe.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import safe from "../../assets/images/safe/graph-bounce-3.png";
+// import safe from "../../assets/images/safe/graph-bounce-3.png";
 import {
   BsFillBookmarkCheckFill,
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
+import Lottie from "react-lottie";
+import soccerLoading from "../../lotties/soccer-fans-1.json";
 
 function Safe() {
+  const lottieAnimation = {
+    loop: true,
+    autoplay: true,
+    animationData: soccerLoading,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+      id: "loader-lottie-id",
+      className: "loader-lottie-id",
+    },
+  };
+
   return (
     <>
       <section className="safe-container container-fluid py-5">
@@ -20,15 +33,20 @@ function Safe() {
 
         <div className="safe-content-div">
           <div className="row">
-            <div className="col-lg-5 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
+            <div className="col-lg-5 col-12 d-flex align-items-center justify-content-center">
               <AnimationOnScroll animateIn="animate__bounceInLeft">
-                <div className="safe-img-div-1">
-                  <img src={safe} alt="img" className="safe-img-1 img-fluid " />
+                <div className="safe-img-div-1 mb-5">
+                  {/* <img src={safe} alt="img" className="safe-img-1 img-fluid " /> */}
+                  <Lottie
+                    options={lottieAnimation}
+                    className="loader-lottie"
+                    width={280}
+                  />
                 </div>
               </AnimationOnScroll>
             </div>
 
-            <div className="col-lg-7 col-12">
+            <div className="col-lg-7 col-12 d-flex align-items-center justify-content-center">
               <AnimationOnScroll animateIn="animate__bounceInRight">
                 <ul className="safe-ul">
                   <li className="h5 mt-3">
