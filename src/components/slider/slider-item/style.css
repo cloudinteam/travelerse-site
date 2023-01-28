@@ -1,0 +1,9 @@
+.content-box {
+  padding-top: 130px;
+}
+
+@media screen and (max-width: 768px) {
+  .content-box {
+    padding-top: 50px;
+  }
+}

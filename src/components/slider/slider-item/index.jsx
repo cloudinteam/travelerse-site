@@ -1,20 +1,20 @@
-import React , {useState} from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-import ModalVideo from 'react-modal-video';
-import 'react-modal-video/scss/modal-video.scss' ;
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import ModalVideo from "react-modal-video";
+import "react-modal-video/scss/modal-video.scss";
 // import { Modal } from "react-bootstrap";
-import './styles.scss'
+import "./styles.scss";
 import Lottie from "react-lottie";
-import soccer from '../../../lotties/soccer_animation.json'
-
+import soccer from "../../../lotties/z2WoaA0Oix.json";
+import './style.css'
 
 SliderItem.propTypes = {
-    item : PropTypes.object,
+  item: PropTypes.object,
 };
 
 function SliderItem(props) {
- const lottieAnimation = {
+  const lottieAnimation = {
     loop: true,
     autoplay: true,
     animationData: soccer,
@@ -24,51 +24,59 @@ function SliderItem(props) {
       className: "career-lottie-id",
     },
   };
-    
-    const {item} = props;
 
-    const [isOpen, setOpen] = useState(false)
+  const { item } = props;
 
-    // const [modalShow, setModalShow] = useState(false);
+  const [isOpen, setOpen] = useState(false);
 
-    return (
-        <div className={`box-slider ${item.classAction}`}>
-            <img className='bg-slider' src={item.bgImg} alt="cybox" />
-            <div className="box-slider__main">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-6 col-md-12">
-                            <div className="content-box">
-                                <h1 className="title">{item.title}</h1>
-                                <p className="sub-title">{item.desc}</p>
-                                <div className="wrap-btn">
-                                    {/* <Link to="https://app.travelerse.club/claim#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
+  // const [modalShow, setModalShow] = useState(false);
 
-                                    <a href='https://app.travelerse.club/claim#' className="tf-button-st2 btn-effect">
-                                        <span className="effect">connect wallet</span>
-                                    </a>
-                                    {/* <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
+  return (
+    <div className={`box-slider ${item.classAction}`}>
+      <img className="bg-slider" src={item.bgImg} alt="cybox" />
+      <div className="box-slider__main">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6 col-md-12">
+              <div className="content-box">
+                <h1 className="title">{item.title}</h1>
+                <p className="sub-title">{item.desc}</p>
+                <div className="wrap-btn">
+                  {/* <Link to="https://app.travelerse.club/claim#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
+
+                  <a
+                    href="https://app.travelerse.club/claim#"
+                    className="tf-button-st2 btn-effect"
+                  >
+                    <span className="effect">connect wallet</span>
+                  </a>
+                  {/* <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
                                     
                                         <span className="boder-fade"></span>                                     
                                         <span className="effect">watch video</span>
                                     </button> */}
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-6 col-md-12">
-                            <div className="image">
-                                {/* <img src={item.im} alt="cybox" /> */}
-                                 <Lottie options={lottieAnimation} />
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
+            <div className="col-xl-6 col-md-12">
+              <div className="image">
+                {/* <img src={item.im} alt="cybox" /> */}
+                <Lottie options={lottieAnimation} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="i7EMACWuErA" onClose={() => setOpen(false)} />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen}
+        videoId="i7EMACWuErA"
+        onClose={() => setOpen(false)}
+      />
 
-            {/* <Modal
+      {/* <Modal
                 show={modalShow}
                 onHide={setModalShow}
             >
@@ -122,7 +130,7 @@ function SliderItem(props) {
                             </div>
             </Modal> */}
 
-            {/* <div className="modal fade popup" id="popup_bid" tabindex="-1" role="dialog" aria-hidden="true">
+      {/* <div className="modal fade popup" id="popup_bid" tabindex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="header-popup">
@@ -136,8 +144,8 @@ function SliderItem(props) {
                 </div>
             </div>
         </div> */}
-        </div>
-    );
+    </div>
+  );
 }
 
 export default SliderItem;

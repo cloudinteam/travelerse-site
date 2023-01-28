@@ -46,12 +46,7 @@ function Planet() {
           </div>
 
           <div className="mt-5 d-flex justify-content-center align-items-center ">
-            <a
-              href="https://t.me/Travelerse"
-              target="_blank"
-              rel="noreferrer"
-              className="earn-btn-item pt-2"
-            >
+            <a href="#" rel="noreferrer" className="earn-btn-item pt-2">
               <span className="">
                 <BsFillArrowRightCircleFill className="my-auto me-2" />
               </span>
