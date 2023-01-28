@@ -49,34 +49,34 @@ function Safe() {
             <div className="col-lg-7 col-12 d-flex align-items-center justify-content-center">
               <AnimationOnScroll animateIn="animate__bounceInRight">
                 <ul className="safe-ul">
-                  <li className="h5 mt-3">
+                  <li className="h5 mt-3 text-justify">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Join Travelerse now to earn our great NFTs.
                   </li>
-                  <li className="h5 mt-3">
+                  <li className="h5 mt-3 text-justify">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Impossibility of extreme dump with Travelerse, because of
                     our ACM.
                   </li>
-                  <li className="h5 mt-3">
+                  <li className="h5 mt-3 text-justify">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Unlike other crypto there is a 3-7% cash out limit per day
                     of your total tokens safeguarding your hard earned money.
                   </li>
-                  <li className="h5 mt-3">
+                  <li className="h5 mt-3 text-justify">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     The Anti-Crash Mechanism works based on the current metrics
                     of the chart to determine the daily withdrawal limit.
                   </li>
-                  <li className="h5 mt-3">
+                  <li className="h5 mt-3 text-justify">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>

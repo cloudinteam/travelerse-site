@@ -114,11 +114,14 @@ function Footer(props) {
       </div>
       <div className="footer-bottom">
         <div className="container">
-          <div className="wrap-fx">
-            <div className="Copyright">
-              <p> Copyright © Travelerse 2022- ALL rights reserved</p>
-            </div>
-            <ul className="list">
+          {/* <div className="wrap-fx">
+            <div className="Copyright"> */}
+          <p className="text-center">
+            {" "}
+            Copyright © Travelerse 2022- ALL rights reserved
+          </p>
+        </div>
+        {/* <ul className="list">
               <li>
                 <Link to="#">Privacy Policy</Link>
               </li>
@@ -131,9 +134,9 @@ function Footer(props) {
               <li>
                 <Link to="/contact">Contact Us</Link>
               </li>
-            </ul>
-          </div>
-        </div>
+            </ul> */}
+        {/* </div>
+        </div> */}
       </div>
 
       {isVisible && <Link onClick={scrollToTop} to="#" id="scroll-top"></Link>}

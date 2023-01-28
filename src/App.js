@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import "../src/assets/font/font-awesome.css";
 import routes from "./pages";
 import Page404 from "./pages/404";
+import "./App.css";
 
 function App() {
   useEffect(() => {

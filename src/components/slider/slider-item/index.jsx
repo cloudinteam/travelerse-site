@@ -7,7 +7,7 @@ import "react-modal-video/scss/modal-video.scss";
 import "./styles.scss";
 import Lottie from "react-lottie";
 import soccer from "../../../lotties/z2WoaA0Oix.json";
-import './style.css'
+import "./style.css";
 
 SliderItem.propTypes = {
   item: PropTypes.object,
@@ -61,7 +61,7 @@ function SliderItem(props) {
             <div className="col-xl-6 col-md-12">
               <div className="image">
                 {/* <img src={item.im} alt="cybox" /> */}
-                <Lottie options={lottieAnimation} />
+                <Lottie options={lottieAnimation} speed="0.7" />
               </div>
             </div>
           </div>

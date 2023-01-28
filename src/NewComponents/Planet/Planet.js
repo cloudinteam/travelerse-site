@@ -6,7 +6,12 @@ function Planet() {
   return (
     <>
       <section className="container-fluid planet-container py-5">
-        <div className="planet-content-div">
+        <div
+          className="planet-content-div"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
           <h1 className="h1 text-center cu">
             "Travelerse with the worlds most unique ACM and NFT utility gives
             holders returns impossible for another crypto currently on the
@@ -16,10 +21,18 @@ function Planet() {
       </section>
 
       <section className="earn-section container-fluid py-5">
-        <h1 className="earn-h1 h1 text-center">
-          How Much Can I Expect in this Lock-to-Earn?
-        </h1>
-        <div className="earn-content-div pt-5">
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+          <h1 className="earn-h1 h1 text-center">
+            How Much Can I Expect in this Lock-to-Earn?
+          </h1>
+        </div>
+
+        <div
+          className="earn-content-div pt-5"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
           <div className="row">
             <div className="col-5">
               <h2 className="h2 text-center earn-h2">
@@ -35,7 +48,12 @@ function Planet() {
               </div>
             </div>
 
-            <div className="col-5">
+            <div
+              className="col-5"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="800"
+            >
               <h2 className="h2 text-center earn-h2">
                 you can earn up to
                 <span className="earn-span cu">US$213,139.27</span> of

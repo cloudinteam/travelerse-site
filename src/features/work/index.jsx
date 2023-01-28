@@ -7,7 +7,7 @@ Work.propTypes = {
     data: PropTypes.array,
 };
 
-function Work(props) {
+function    Work(props) {
 
     const {data} = props;
 
