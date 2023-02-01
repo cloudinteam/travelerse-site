@@ -40,7 +40,7 @@ function SliderItem(props) {
             <div className="col-xl-6 col-md-12">
               <div className="content-box">
                 <h1 className="title">{item.title}</h1>
-                <p className="sub-title">{item.desc}</p>
+                <p className="sub-title text-light">{item.desc}</p>
                 <div className="wrap-btn">
                   {/* <Link to="https://app.travelerse.club/claim#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
 

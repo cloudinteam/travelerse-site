@@ -1,8 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import PageTitle from "../components/pagetitle";
 import Loader from "../NewComponents/loader/loader";
+import { useForm } from "react-hook-form";
 
 function Contact(props) {
+  const {
+    register,
+    handleSubmit,
+    trigger,
+    formState: { errors },
+    reset,
+  } = useForm();
+  const [data, setData] = useState({});
+
+  const onInputChange = (e) => {
+    setData({ ...data, [e.target.name]: e.target.value });
+  };
+
+  const sendEmail = (data, e) => {
+    e.preventDefault();
+
+    // emailjs
+    //   .sendForm(
+    //     "service_l029rhu",
+    //     "template_4q0p40m",
+    //     form.current,
+    //     "Sz5nHTgdr-rAs6Oht"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       Swal.fire(
+    //         "Good job!",
+    //         "Message Send Successfully :)",
+    //         "success",
+    //         "Close"
+    //       );
+    //     },
+    //     (error) => {
+    //       Swal.fire({
+    //         title: "Error!",
+    //         text: "Something went wrong message could not be sent :) ",
+    //         icon: "error",
+    //         button: "ok!",
+    //       });
+    //     }
+    //   );
+
+    console.log(data);
+    reset();
+  };
+
   return (
     <div>
       <Loader />
@@ -29,35 +76,109 @@ function Contact(props) {
                 id="contactform"
                 data-aos="fade-right"
                 data-aos-duration="800"
+                // ref={form}
+                onSubmit={handleSubmit(sendEmail)}
               >
                 <fieldset>
-                  <input type="text" name="name" id="name" placeholder="Name" />
+                  <input
+                    type="text"
+                    name="fullName"
+                    id="name"
+                    placeholder="Name"
+                    onChange={(e) => onInputChange(e)}
+                    {...register("fullName", {
+                      required: "Name is required",
+                      maxLength: 20,
+                      minLength: 1,
+                      pattern: {
+                        value: /^[A-Z a-z]+$/,
+                        message: "Value is Invalid",
+                      },
+                    })}
+                    onKeyUp={() => {
+                      trigger("fullName");
+                    }}
+                  />
+                  {errors.fullName && (
+                    <small className="text-danger error-text">
+                      {errors.fullName.message}{" "}
+                    </small>
+                  )}
                 </fieldset>
                 <fieldset>
                   <input
                     type="email"
-                    name="mail"
+                    name="email"
+                    maxLength={35}
                     id="mail"
                     placeholder="Email Address"
+                    onChange={(e) => onInputChange(e)}
+                    {...register("email", {
+                      required: "Email is required",
+                      pattern: {
+                        value:
+                          /^[a-zA-Z0-9.!#$%&'*+=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
+                        message: "Value is Invalid",
+                      },
+                    })}
+                    onKeyUp={() => {
+                      trigger("email");
+                    }}
                   />
+                  {errors.email && (
+                    <small className="text-danger error-text">
+                      {errors.email.message}{" "}
+                    </small>
+                  )}
                 </fieldset>
                 <fieldset>
                   <input
-                    type="number"
+                    type="text"
                     name="phone"
                     id="phone"
                     placeholder="Phone"
+                    maxLength={10}
+                    onChange={(e) => onInputChange(e)}
+                    {...register("phone", {
+                      required: "phone number is required",
+                      maxLength: 10,
+                      pattern: {
+                        value: /^[6-9]{1}[0-9]{9}$/,
+                        message: "Value is Invalid",
+                      },
+                    })}
+                    onKeyUp={(e) => {
+                      trigger("phone");
+                    }}
+                    onKeyPress={(event) => {
+                      if (!/[0-9]/.test(event.key)) {
+                        event.preventDefault();
+                      }
+                    }}
                   />
+                  {errors.phone && (
+                    <small className="text-danger error-text">
+                      {errors.phone.message}{" "}
+                    </small>
+                  )}
                 </fieldset>
                 <fieldset>
                   <textarea
-                    placeholder="Type your Messege"
-                    rows="5"
-                    tabIndex="4"
+                    rows={7}
                     name="message"
-                    className="message"
-                    id="message"
+                    placeholder="Your Message Here"
+                    {...register("message", {
+                      required: "Message is required",
+                    })}
+                    onKeyUp={() => {
+                      trigger("message");
+                    }}
                   ></textarea>
+                  {errors.message && (
+                    <small className="text-danger textarea-input error-text">
+                      {errors.message.message}
+                    </small>
+                  )}
                 </fieldset>
                 <button className="tf-button btn-effect" type="submit">
                   <span className="boder-fade"></span>
@@ -71,14 +192,14 @@ function Contact(props) {
                 data-aos="fade-left"
                 data-aos-duration="800"
               >
-                <div className="adress wrap-fx">
+                <div className="adress wrap-fx d-flex flex-sm-row flex-column">
                   <div className="location">
                     <h6>Location</h6>
                     <ul>
                       <li>2163 Phillips Gap Rd West Jefferson,NC, 28694</li>
                     </ul>
                   </div>
-                  <div className="mail">
+                  <div className="ms-sm-4 ms-0 mt-sm-0 mt-4">
                     <h6>Contact Us</h6>
                     <ul>
                       <li>+1 666 8888</li>

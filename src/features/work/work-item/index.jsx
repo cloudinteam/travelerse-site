@@ -10,7 +10,8 @@ function WorkItem(props) {
   const { item } = props;
 
   return (
-    <div className={`box-text st2 corner-box ${item.active}`}>
+    // <div className={`box-text st2 corner-box ${item.active}`}>
+    <div className={`box-text st2 corner-box`}>
       <div className="number">{item.numb}</div>
       <div className="h7">{item.title}</div>
       <p className="text-justify">{item.text}</p>

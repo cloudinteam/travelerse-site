@@ -35,9 +35,11 @@ const Header = () => {
       <div className="container">
         <div id="site-header-inner">
           <div className="header__logo">
-            <NavLink to="/">
+            {/* <NavLink to="/"> */}
+            <a href="#" rel="noreferrer">
               <img src={travel_logo} alt="Crybox" width={150} />
-            </NavLink>
+            </a>
+            {/* </NavLink> */}
           </div>
           <nav
             id="main-nav"
@@ -45,9 +47,9 @@ const Header = () => {
           >
             <ul id="menu-primary-menu" className="menu">
               <li className="d-flex flex-lg-row flex-column justify-content-center ms-mg-5 ms-0">
-                <Link to="/" className="py-lg-0 py-2 mx-auto">
+                <a href="#" className="py-lg-0 py-2 mx-auto">
                   Home
-                </Link>
+                </a>
 
                 <div className="header-line d-lg-none d-block "></div>
                 <a

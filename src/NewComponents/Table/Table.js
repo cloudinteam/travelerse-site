@@ -15,7 +15,7 @@ function Table ()
   }
   return (
     <>
-      <section className='table-section container-fluid'>
+      <section className='table-section container-fluid py-5 my-md-4 my-0'>
         <h1 className='h1 text-center fw-bold'>Competitive Advantages Over All Other Rewards Coins</h1>
         <div className='table-responsive-xl pt-4' onKeyDown={horizontalScroll} >
           <table className="table table-striped ">

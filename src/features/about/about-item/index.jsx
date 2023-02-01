@@ -9,7 +9,8 @@ function AboutItem(props) {
   const { item } = props;
 
   return (
-    <div key={item.id} className={`box-text corner-box ${item.class}`}>
+    // <div key={item.id} className={`box-text corner-box ${item.class}`}>
+    <div key={item.id} className={`box-text corner-box`}>
       <div className="h7">{item.title}</div>
       <p className="text-justify">{item.desc}</p>
     </div>

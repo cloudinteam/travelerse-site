@@ -1,34 +1,38 @@
 import React from "react";
 import "./Tokenomics.css";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+
 import { FaMoneyCheckAlt, FaMoneyCheck } from "react-icons/fa";
 import { GiPayMoney } from "react-icons/gi";
 import {
   BsUmbrellaFill,
   BsBank2,
   BsShieldShaded,
-  BsFillArrowRightCircleFill,
+  BsFillBookmarkCheckFill,
 } from "react-icons/bs";
 
 function TokeNomics() {
   return (
     <>
-      <section className="toke-container container-fluid py-5">
-        <h1 className="h1 text-center title fw-bold text-white mb-4">Tokenomics</h1>
+      <section className="toke-container container-fluid py-5 my-md-5 my-0">
+        <h1 className="h1 text-center title fw-bold text-white mb-4">
+          Tokenomics
+        </h1>
         <div className="toke-content-div d-flex flex-column">
           <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
             <div className="row d-flex flex-row justify-content-center">
               {/* <div></div> */}
-              <div className="col-3 d-flex justify-content-end">
+              <div className="col-3 d-flex justify-content-end flex-column align-items-end">
                 <i className="toke-icon cu">
                   <FaMoneyCheckAlt />
                 </i>
+                <span className="fs-1 fw-bold mt-3 text-info">Buy</span>
               </div>
               <div className="col-3 d-flex justify-content-center"></div>
-              <div className="col-3">
+              <div className="col-3 d-flex flex-column">
                 <i className="toke-icon cu">
                   <FaMoneyCheck />
                 </i>
+                <span className="fs-1 fw-bold mt-3 text-danger">Sell</span>
               </div>
             </div>
           </div>
@@ -41,7 +45,6 @@ function TokeNomics() {
           >
             <div className="col-3 toke-text d-flex justify-content-end text-white text-end">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              Buy
               <br />
               10% tax (12% slippage)
               {/* </AnimationOnScroll> */}
@@ -49,7 +52,6 @@ function TokeNomics() {
             <div className="col-3 d-flex justify-content-center"></div>
             <div className="col-3 toke-text text-white">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              Sell
               <br />
               20% tax (22% slippage)
               {/* </AnimationOnScroll> */}
@@ -194,6 +196,15 @@ function TokeNomics() {
 
           <div className="d-flex justify-content-center mt-5">
             <a
+              className="tf-button btn-effect py-3 h-100"
+              href="https://t.me/Travelerse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="boder-fade"></span>
+              <span className="effect ">Join Our Telegram Community</span>
+            </a>
+            {/* <a
               href="https://t.me/Travelerse"
               target="_blank"
               rel="noreferrer"
@@ -203,7 +214,7 @@ function TokeNomics() {
                 <BsFillArrowRightCircleFill />
               </span>
               Join Our Telegram Community
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

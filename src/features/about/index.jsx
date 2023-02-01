@@ -32,11 +32,16 @@ function About(props) {
                 <h4 className="title">{dataBlock.title}</h4>
               </div>
               <p className="text-justify">{dataBlock.desc}</p>
-              <Button
-                title="CLick to Buy Travelarse"
-                path="/"
-                onClick={scrollToTop}
-              />
+
+              <a
+                className="tf-button btn-effect"
+                href="https://app.travelerse.club/claim"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="boder-fade"></span>
+                <span className="effect">CLick to Buy Travelarse</span>
+              </a>
             </div>
           </div>
           <div className="col-xl-7 col-md-12">

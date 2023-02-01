@@ -2,10 +2,7 @@ import React from "react";
 import "./Safe.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 // import safe from "../../assets/images/safe/graph-bounce-3.png";
-import {
-  BsFillBookmarkCheckFill,
-  BsFillArrowRightCircleFill,
-} from "react-icons/bs";
+import { BsFillBookmarkCheckFill } from "react-icons/bs";
 import Lottie from "react-lottie";
 import soccerLoading from "../../lotties/soccer-fans-1.json";
 
@@ -23,7 +20,7 @@ function Safe() {
 
   return (
     <>
-      <section className="safe-container container-fluid py-5">
+      <section className="safe-container container-fluid py-5 my-md-4 my-0">
         <h1 className="h1 text-center fw-bold pb-4">
           How The World's Best ACM Keeps Your Investment Safe!
         </h1>
@@ -49,34 +46,34 @@ function Safe() {
             <div className="col-lg-7 col-12 d-flex align-items-center justify-content-center">
               <AnimationOnScroll animateIn="animate__bounceInRight">
                 <ul className="safe-ul">
-                  <li className="h5 mt-3 text-justify">
+                  <li className="h5 mt-3 text-justify lh-base">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Join Travelerse now to earn our great NFTs.
                   </li>
-                  <li className="h5 mt-3 text-justify">
+                  <li className="h5 mt-3 text-justify lh-base">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Impossibility of extreme dump with Travelerse, because of
                     our ACM.
                   </li>
-                  <li className="h5 mt-3 text-justify">
+                  <li className="h5 mt-3 text-justify lh-base">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     Unlike other crypto there is a 3-7% cash out limit per day
                     of your total tokens safeguarding your hard earned money.
                   </li>
-                  <li className="h5 mt-3 text-justify">
+                  <li className="h5 mt-3 text-justify lh-base">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
                     The Anti-Crash Mechanism works based on the current metrics
                     of the chart to determine the daily withdrawal limit.
                   </li>
-                  <li className="h5 mt-3 text-justify">
+                  <li className="h5 mt-3 text-justify lh-base">
                     <span className="cu me-3">
                       <BsFillBookmarkCheckFill />
                     </span>
@@ -90,6 +87,15 @@ function Safe() {
 
           <div className="d-flex justify-content-center mt-4 pt-4">
             <a
+              className="tf-button btn-effect py-3 h-100"
+              href="https://t.me/Travelerse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="boder-fade"></span>
+              <span className="effect ">Join Our Telegram Community</span>
+            </a>
+            {/* <a
               href="https://t.me/Travelerse"
               target="_blank"
               rel="noreferrer"
@@ -99,7 +105,7 @@ function Safe() {
                 <BsFillArrowRightCircleFill />
               </span>
               Join Our Telegram Community
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

@@ -64,11 +64,14 @@ function Planet() {
           </div>
 
           <div className="mt-5 d-flex justify-content-center align-items-center ">
-            <a href="#" rel="noreferrer" className="earn-btn-item pt-2">
-              <span className="">
-                <BsFillArrowRightCircleFill className="my-auto me-2" />
-              </span>
-              <span>Click to Buy Travelerse</span>
+            <a
+              className="tf-button btn-effect py-3 h-100"
+              href="https://app.travelerse.club/claim"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="boder-fade"></span>
+              <span className="effect ">CLick to Buy Travelarse</span>
             </a>
           </div>
         </div>
