@@ -208,7 +208,12 @@ function TokeNomics() {
           </div>
 
           <div className="d-flex justify-content-center mt-5">
-            <a href="#" rel="noreferrer" className=" earn-btn-item pt-2">
+            <a
+              href="https://t.me/Travelerse"
+              target="_blank"
+              rel="noreferrer"
+              className=" earn-btn-item pt-2"
+            >
               <span className="me-2">
                 <BsFillArrowRightCircleFill />
               </span>

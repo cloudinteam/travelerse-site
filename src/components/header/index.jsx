@@ -94,7 +94,8 @@ const Header = () => {
           {/* <Button title='join telegram' path='/contact' id='home-btn' /> */}
 
           <a
-            href="#"
+            href="https://t.me/Travelerse"
+            target="_blank"
             rel="noreferrer"
             className="tf-button btn-effect home-btn d-sm-inline-block d-none text-nowrap"
           >

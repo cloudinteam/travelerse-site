@@ -64,7 +64,11 @@ function Footer(props) {
                             </Link>
                         </li> */}
             <li>
-              <a href="#" rel="noreferrer">
+              <a
+                href="https://t.me/Travelerse"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   width="30"
                   height="27"

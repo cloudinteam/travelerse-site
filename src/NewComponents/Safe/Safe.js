@@ -89,7 +89,12 @@ function Safe() {
           </div>
 
           <div className="d-flex justify-content-center mt-4 pt-4">
-            <a href="#" rel="noreferrer" className="pt-2 earn-btn-item">
+            <a
+              href="https://t.me/Travelerse"
+              target="_blank"
+              rel="noreferrer"
+              className="pt-2 earn-btn-item"
+            >
               <span className="me-2">
                 <BsFillArrowRightCircleFill />
               </span>
