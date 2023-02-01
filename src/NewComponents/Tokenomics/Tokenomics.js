@@ -14,7 +14,7 @@ function TokeNomics() {
   return (
     <>
       <section className="toke-container container-fluid py-5">
-        <h1 className="h1 text-center title fw-bold text-white">Tokenomics</h1>
+        <h1 className="h1 text-center title fw-bold text-white mb-4">Tokenomics</h1>
         <div className="toke-content-div d-flex flex-column">
           <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
             <div className="row d-flex flex-row justify-content-center">
@@ -62,14 +62,14 @@ function TokeNomics() {
             data-aos-delay="100"
             data-aos-duration="800"
           >
-            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none mt-md-0 mt-5">
               <i className="cu fs-1">
                 <GiPayMoney />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-info d-md-none">Buy</span>
+              <span className="h6 text-info d-md-none">Buy</span>
               <br />
               Automatic LP
               <br />
@@ -77,19 +77,14 @@ function TokeNomics() {
               {/* </AnimationOnScroll> */}
             </div>
 
-            <div
-              className="col-md-3 col-12 d-md-flex justify-content-center d-none"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-            >
+            <div className="col-md-3 col-12 d-md-flex justify-content-center align-items-center d-none">
               <i className="cu fs-1">
                 <GiPayMoney />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-danger d-md-none">sell</span>
+              <span className="h6 text-danger d-md-none">sell</span>
               <br />
               Automatic LP
               <br />
@@ -98,44 +93,34 @@ function TokeNomics() {
             </div>
           </div>
 
-          <div className="row d-flex flex-md-row flex-column justify-content-center mt-4">
-            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none ">
+          <div
+            className="row d-flex flex-md-row flex-column justify-content-center mt-4 "
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+          >
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none mt-md-0 mt-5">
               <i className="cu fs-1">
                 <BsUmbrellaFill />
               </i>
             </div>
-            <div
-              className="col-md-3 col-12 toke-text  text-white text-md-end text-center"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-            >
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-info d-md-none">Buy</span>
+              <span className="h6 text-info d-md-none">Buy</span>
               <br />
               TIF
               <br />
               3% of order fees are stored in the TIF
               {/* </AnimationOnScroll> */}
             </div>
-            <div
-              className="col-md-3 col-12 d-md-flex justify-content-center d-none"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-            >
+            <div className="col-md-3 col-12 d-md-flex justify-content-center align-items-center d-none ">
               <i className="cu fs-1">
                 <BsUmbrellaFill />
               </i>
             </div>
-            <div
-              className="col-md-3 col-12 toke-text text-white text-md-start text-center"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-            >
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-danger d-md-none">sell</span>
+              <span className="h6 text-danger d-md-none">sell</span>
               <br />
               TIF
               <br />
@@ -150,28 +135,28 @@ function TokeNomics() {
             data-aos-delay="100"
             data-aos-duration="800"
           >
-            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none">
+            <div className="col-md-3 col-12 d-flex justify-content-center align-items-center d-md-none mt-md-0 mt-5">
               <i className="cu fs-1">
                 <BsBank2 />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center">
+            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-info d-md-none">Buy</span>
+              <span className="h6 text-info d-md-none">Buy</span>
               <br />
               Treasury
               <br />
               5% of order fees go to the Treasury
               {/* </AnimationOnScroll> */}
             </div>
-            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none">
+            <div className="col-md-3 col-12 d-md-flex justify-content-center align-items-center d-none">
               <i className="cu fs-1">
                 <BsBank2 />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-danger d-md-none">sell</span>
+              <span className="h6 text-danger d-md-none">sell</span>
               <br />
               Treasury
               <br />
@@ -186,20 +171,20 @@ function TokeNomics() {
             data-aos-delay="100"
             data-aos-duration="800"
           >
-            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none">
+            <div className="col-md-3 col-12 d-flex justify-content-center d-md-none mt-md-0 mt-4">
               <i className="cu fs-1">
                 <BsShieldShaded />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text  text-white text-md-end text-center"></div>
-            <div className="col-md-3 col-12 d-md-flex justify-content-center d-none">
+            <div className="col-md-3 col-12 toke-text text-white text-md-end text-center"></div>
+            <div className="col-md-3 col-12 d-md-flex justify-content-center align-items-center d-none">
               <i className="cu fs-1">
                 <BsShieldShaded />
               </i>
             </div>
-            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center">
+            <div className="col-md-3 col-12 toke-text text-white text-md-start text-center mt-md-0 mt-3">
               {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-              <span className="h5 text-danger d-md-none">sell</span>
+              <span className="h6 text-danger d-md-none ">sell</span>
               <br />
               $TRAVELERSE Max Withdrawal Limit is Currently{" "}
               <span className="cu">3% of Your Total Tokens</span> Every 24-Hours
