@@ -36,9 +36,9 @@ const Header = () => {
         <div id="site-header-inner">
           <div className="header__logo">
             {/* <NavLink to="/"> */}
-            <a href="#" rel="noreferrer">
+            <NavLink to="/">
               <img src={travel_logo} alt="Crybox" width={150} />
-            </a>
+            </NavLink>
             {/* </NavLink> */}
           </div>
           <nav

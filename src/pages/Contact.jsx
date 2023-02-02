@@ -67,7 +67,7 @@ function Contact(props) {
                   <h4 className="title">Have a question </h4>
                 </div>
                 <p className="me-2">
-                  Fill up the Form and ou team will get back to within 24 hrs
+                  Fill up the Form and our team will get back to within 24 hrs
                 </p>
               </div>
               <form
