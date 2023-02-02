@@ -46,14 +46,14 @@ const Header = () => {
             className={`main-nav ${menuActive ? "active" : ""}`}
           >
             <ul id="menu-primary-menu" className="menu">
-              <li className="d-flex flex-lg-row flex-column justify-content-center ms-mg-5 ms-0">
+              <li className="d-flex flex-lg-row flex-column justify-content-center ms-md-5 ms-0">
                 <NavLink to="/" className="py-lg-0 py-2 mx-auto">
                   Home
                 </NavLink>
 
                 <div className="header-line d-lg-none d-block "></div>
                 <a
-                  className="py-lg-0 py-2  mx-auto"
+                  className="py-lg-0 py-2 mx-md-4 mx-auto"
                   target="_blank"
                   rel="noreferrer"
                   href="https://travelerse.gitbook.io/travelerse/"
@@ -63,7 +63,7 @@ const Header = () => {
                 <div className="header-line d-lg-none d-block "></div>
 
                 <a
-                  className="py-lg-0 py-2  mx-auto"
+                  className="py-lg-0 py-2 mx-md-4 mx-auto"
                   target="_blank"
                   rel="noreferrer"
                   href="https://app.travelerse.club/claim"
@@ -73,7 +73,7 @@ const Header = () => {
 
                 <div className="header-line d-lg-none d-block "></div>
 
-                <Link className="py-lg-0 py-2  mx-auto" to="/Contact">
+                <Link className="py-lg-0 py-2 mx-md-4 mx-auto" to="/Contact">
                   Contact
                 </Link>
                 <div className="header-line d-lg-none d-block "></div>
