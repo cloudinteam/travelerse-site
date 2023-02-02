@@ -85,10 +85,11 @@ function Contact(props) {
                     name="fullName"
                     id="name"
                     placeholder="Name"
+                    maxLength="50"
                     onChange={(e) => onInputChange(e)}
                     {...register("fullName", {
                       required: "Name is required",
-                      maxLength: 20,
+                      maxLength: 50,
                       minLength: 1,
                       pattern: {
                         value: /^[A-Z a-z]+$/,
@@ -137,11 +138,11 @@ function Contact(props) {
                     name="phone"
                     id="phone"
                     placeholder="Phone"
-                    maxLength={10}
+                    maxLength={13}
                     onChange={(e) => onInputChange(e)}
                     {...register("phone", {
                       required: "phone number is required",
-                      maxLength: 10,
+                      // maxLength: 13,
                       pattern: {
                         value: /^[6-9]{1}[0-9]{9}$/,
                         message: "Value is Invalid",
