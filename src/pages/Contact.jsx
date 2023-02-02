@@ -66,7 +66,7 @@ function Contact(props) {
                 <div className="tf-title st2 m-b17">
                   <h4 className="title">Have a question </h4>
                 </div>
-                <p className="m-r-40">
+                <p className="me-2">
                   Fill up the Form and ou team will get back to within 24 hrs
                 </p>
               </div>

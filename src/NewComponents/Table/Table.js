@@ -21,7 +21,7 @@ function Table ()
           <table className="table table-striped ">
             <thead>
               <tr>
-                <th scope='col' className='h5 cu table-head'>Features</th>
+                <th scope='col' className='h5 cu table-head pe-5'>Features</th>
                 <th scope='col' className='h5 cu table-head'>TRAVELERSE</th>
                 <th scope='col' className='h5 cu table-head'>Titano</th>
                 <th scope='col' className='h5 cu table-head'>Libero</th>
@@ -30,21 +30,21 @@ function Table ()
             </thead>
             <tbody>
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>APY</td>
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>APY</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>213,139%</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>102,483.58%</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>158,893.59%</td>
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Fees</td>
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Fees</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>10%/20%</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>13%/18%</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><GiReceiveMoney /></i>15%/25%</td>
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Anti-Whale 3-7% sales limit</td>
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Anti-Whale 3-7% sales limit</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>
@@ -52,7 +52,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Real NFT usecase</td>
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Real NFT usecase</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
                 <td className='h5  text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>
@@ -60,7 +60,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Sustainable Chart Growth
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Sustainable Chart Growth
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
@@ -69,7 +69,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>
                   Insurance Fund
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
@@ -79,7 +79,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Auto-Liquidity
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Auto-Liquidity
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
@@ -87,7 +87,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Auto-Staking
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Auto-Staking
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
@@ -95,7 +95,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Anti-Crash Proof on Chart
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Anti-Crash Proof on Chart
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
@@ -103,7 +103,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Rug-Proof: No Manual Adjusting
+                <td className='h5 text-white table-h5 pe-5' ><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Rug-Proof: No Manual Adjusting
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>
@@ -111,7 +111,7 @@ function Table ()
               </tr>
 
               <tr className="table-active">
-                <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Manual Token Buyback
+                <td className='h5 text-white table-h5 pe-5'><i className='h5 me-2 cu'><AiFillQuestionCircle /></i>Manual Token Buyback
                 </td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><BsCheckCircleFill /></i>Yes</td>
                 <td className='h5 text-white table-h5'><i className='h5 me-2 cu'><MdCancel /></i>No</td>

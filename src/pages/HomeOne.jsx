@@ -57,6 +57,7 @@ function HomeOne(props) {
       {/* <Partner data={dataPartner} /> */}
 
       <Table />
+
       <FAQ data={dataFaq} />
     </div>
   );

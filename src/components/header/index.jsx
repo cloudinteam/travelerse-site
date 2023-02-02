@@ -47,9 +47,9 @@ const Header = () => {
           >
             <ul id="menu-primary-menu" className="menu">
               <li className="d-flex flex-lg-row flex-column justify-content-center ms-mg-5 ms-0">
-                <a href="#" className="py-lg-0 py-2 mx-auto">
+                <NavLink to="/" className="py-lg-0 py-2 mx-auto">
                   Home
-                </a>
+                </NavLink>
 
                 <div className="header-line d-lg-none d-block "></div>
                 <a
