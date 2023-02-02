@@ -48,12 +48,7 @@ function Planet() {
               </div>
             </div>
 
-            <div
-              className="col-5"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="800"
-            >
+            <div className="col-5">
               <h2 className="h2 text-center earn-h2">
                 you can earn up to
                 <span className="earn-span cu">US$213,139.27</span> of
